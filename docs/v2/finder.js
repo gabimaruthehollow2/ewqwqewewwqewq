@@ -55,7 +55,7 @@ document.body.innerHTML += `<div class="ui inverted segment">
 
     <div class="field" id="name">
       <label>Username:</label>
-      <div class="ui large labeled input"><input type="text" value="${params.get('keyword') || "anonimbiri"}" placeholder="Nickname" maxlength="17" spellcheck="false" data-ms-editor="true"></div>
+      <div class="ui large labeled input"><input type="text" value="${params.get('keyword') || "ga bi ma ru"}" placeholder="Nickname" maxlength="17" spellcheck="false" data-ms-editor="true"></div>
     </div>
 
     <div class="field">
@@ -337,10 +337,10 @@ function updatePlayerList() {
     }
 
     if (params.get('name-type') === "full") {
-        let keyword = params.get('keyword') || "anonimbiri";
+        let keyword = params.get('keyword') || "ga bi ma ru";
         filteredPlayers = filteredPlayers.filter(player => player.nick.toLowerCase().includes(keyword.toLowerCase()));
     } else if (params.get('name-type') === "partial") {
-        let keyword = params.get('keyword') || "anonimbiri";
+        let keyword = params.get('keyword') || "ga bi ma ru";
 
         filteredPlayers = players.filter(player => {
             if (player.nick) {
@@ -436,7 +436,7 @@ function updatePlayerList() {
                     message: `${item.roomcode} Room Link has been Copied to the Clipboard.`
                 });
             } else {
-                window.open(`https://anonimbiri.github.io/gartic.io-bot/v2/?code=${item.roomcode}`);
+                window.open(`https://github.com/gabimaruthehollow2/garticbotlari/?code=${item.roomcode}`);
             }
         });
         card.appendChild(imageDiv);
