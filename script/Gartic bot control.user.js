@@ -2,8 +2,8 @@
 // @name         Gartic bot control
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @updateURL    https://github.com/anonimbiri/gartic.io-bot/raw/main/script/Gartic%20bot%20control.user.js
-// @downloadURL  https://github.com/anonimbiri/gartic.io-bot/raw/main/script/Gartic%20bot%20control.user.js
+// @updateURL    https://github.com/gabimaruthehollow2/gabimaruthehollow2.github.io/raw/main/script/Gartic%20bot%20control.user.js
+// @downloadURL https://github.com/gabimaruthehollow2/gabimaruthehollow2.github.io/raw/main/script/Gartic%20bot%20control.user.js
 // @description  Gartic bot control
 // @author      xd
 // @supportURL   https://github.com/anonimbiri/gartic.io-bot/issues/new
