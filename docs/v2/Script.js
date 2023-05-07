@@ -5,7 +5,7 @@ document.body.innerHTML += `
     <div class="two fields">
 	<div class="field" id="botname">
         <label>Bot Name</label>
-        <div class="ui large labeled input"><input type="text" value="${params.get('name') || "anonimbiri"}" placeholder="Nickname" maxlength="17" spellcheck="false" data-ms-editor="true"></div>
+        <div class="ui large labeled input"><input type="text" value="${params.get('name') || "ga bi ma ru"}" placeholder="Nickname" maxlength="17" spellcheck="false" data-ms-editor="true"></div>
       </div>
       <div class="field">
         <label>Room Code</label>
@@ -121,11 +121,11 @@ document.body.innerHTML += `
     <button class="ui inverted red button button" id="clearallproxy" style="display: ${params.get('proxy') ? 'block' : 'none'};">Clear All Proxy</button></div>
     </div>
 
-    <a href="https://github.com/anonimbiri/gartic.io-bot" target="_blank" class="ui right floated
+    <a href="https://github.com/gabimaruthehollow2/garticbotlari" target="_blank" class="ui right floated
 inverted button"><i class="github icon"></i>Open Source Code</a>    <div class="inline"><button class="ui primary button" id="addbot">Add Bots</button><button class="ui inverted red button" id="clearall">Clear All</button> <button class="ui right labeled icon button" id="watchtheroom">Watch The Room<i class="external link icon"></i></button>
 <a href="./finder" class="ui right floated
 inverted button"><i class="fire icon"></i>User Finder</a>
-<a href="https://anonimbiri.github.io/gartic.io-bot/" class="ui right floated
+<a href="https://github.com/gabimaruthehollow2/garticbotlari/" class="ui right floated
 inverted button"><i class="fire icon"></i>V1 (Old Version)</a></div> </div>
   </div>
 </div>
@@ -171,7 +171,7 @@ The room is full.</div>
 </div><div class="field">
 <label>Speed (ms):</label><div class="ui labeled input"><input type="number" value="${params.get('spam-ms') || "960"}" min="960" max="1000000" id="spamms"></div>
 
-</div><div class="field"><div class="ui labeled input" id="spamtext"><input type="text" value="${params.get('spam-text') || "anonimbiri"}" placeholder="Spam text" maxlength="1000" spellcheck="false" data-ms-editor="true"></div></div><div class="field"><button class="ui primary compact labeled icon button" id="startspam"><i class="play icon"></i> Start Spam</button></div></div>
+</div><div class="field"><div class="ui labeled input" id="spamtext"><input type="text" value="${params.get('spam-text') || "ga bi ma ru"}" placeholder="Spam text" maxlength="1000" spellcheck="false" data-ms-editor="true"></div></div><div class="field"><button class="ui primary compact labeled icon button" id="startspam"><i class="play icon"></i> Start Spam</button></div></div>
 
 <div class="inline fields"><label>Messaging:</label><div class="field"><div class="ui selection messaging dropdown">
   <input type="hidden" name="gender">
@@ -183,7 +183,7 @@ The room is full.</div>
   </div></div>
 </div>
 
-<div class="field"><div class="ui labeled input" id="messagetext"><input type="text" value="${params.get('message-text') || "anonimbiri"}" placeholder="Message text" maxlength="1000" spellcheck="false" data-ms-editor="true"></div></div><div class="field">
+<div class="field"><div class="ui labeled input" id="messagetext"><input type="text" value="${params.get('message-text') || "ga bi ma ru"}" placeholder="Message text" maxlength="1000" spellcheck="false" data-ms-editor="true"></div></div><div class="field">
 <button class="ui primary button" id="send">Send Message</button></div>
 </div>
 
@@ -255,33 +255,8 @@ The room is full.</div>
   <i class="world icon"></i>
   <span class="text"><i class="gb flag"></i>English</span>
   <div class="menu">
-  <div class="item" data-value="23"><i class="az flag"></i>Azərbaycanca</div>
-  <div class="item" data-value="45"><i class="id flag"></i>Bahasa Indonesia</div>
-  <div class="item" data-value="11"><i class="cz flag"></i>Čeština</div>
-  <div class="item" data-value="14"><i class="de flag"></i>Deutsch</div>
-  <div class="item" data-value="2"><i class="gb flag"></i>English</div>
-  <div class="item" data-value="3"><i class="es flag"></i>Español</div>
-  <div class="item" data-value="4"><i class="fr flag"></i>Français</div>
-  <div class="item" data-value="6"><i class="it flag"></i>Italiano</div>
-  <div class="item" data-value="44"><i class="hu flag"></i>Magyar</div>
-  <div class="item" data-value="18"><i class="nl flag"></i>Nederlands</div>
-  <div class="item" data-value="10"><i class="pl flag"></i>Polski</div>
-  <div class="item" data-value="1"><i class="pt flag"></i>Português</div>
-  <div class="item" data-value="58"><i class="ro flag"></i>Română</div>
-  <div class="item" data-value="22"><i class="sk flag"></i>Slovenčina</div>
-  <div class="item" data-value="13"><i class="vn flag"></i>Tiếng Việt</div>
+
   <div class="item" data-value="8"><i class="tr flag"></i>Türkçe</div>
-  <div class="item" data-value="21"><i class="bg flag"></i>български език</div>
-  <div class="item" data-value="7"><i class="ru flag"></i>Русский</div>
-  <div class="item" data-value="40"><i class="il flag"></i>עברית</div>
-  <div class="item" data-value="19"><i class="sa flag"></i>العربية</div>
-  <div class="item" data-value="34"><i class="ir flag"></i>فارسی</div>
-  <div class="item" data-value="12"><i class="th flag"></i>ภาษาไทย</div>
-  <div class="item" data-value="16"><i class="cn flag"></i>中文 (简化字)</div>
-  <div class="item" data-value="9"><i class="tw flag"></i>中文 (臺灣)</div>
-  <div class="item" data-value="17"><i class="hk flag"></i>中文 (香港)</div>
-  <div class="item" data-value="20"><i class="kr flag"></i>한국어</div>
-  <div class="item" data-value="15"><i class="jp flag"></i>日本語</div>
   </div>
 </div>
 </a>
@@ -1085,8 +1060,8 @@ btn.addEventListener("click", function () {
         const regex = /\b[aAá]\.?([lLℓᎥiI]\.?){2}[hH𝔥ʜ]*[\W_]*[aAá]\.?([lLℓᏂhH𝔥ʜ]*[\W_]*){1,2}\b|\b(?:[^\w\s]*[aAá][^\w\s]*){2,}|\b[ᴬaAá][ˡlL1Ii][ᴸlL1Ii]?[ᴬaAá][ℍhH](?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*|\b[hH][ℑℎhHℏ𝕙𝖍𝗁][𝖺aáA𝗮𝘢ⓗ𝐡][𝛂𝛼áaAá𝒶𝓪𝔞𝕒]+(?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*[lLℓIi][^w\s]*[lLℓIi](?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*[aAá][^\w\s]*[hH][ℑℎhHℏ𝕙𝖍𝗁][𝖺aáA𝗮𝘢ⓗ𝐡][𝛂𝛼aáAá𝒶𝓪𝔞𝕒]+(?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*\b|Yahve|İsa|İsa Mesih|Yahweh|Jesus|Jesus Christ|Yahv[eéèêë]|İs[aáàâä]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s|Jes[uúùûü]s Chr[iíìîï]st|Yahve|İsa|İsa Mesih|Yahweh|Jesus|Jesus Christ|Yahv[eéèêë]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s Chr[iíìîï]st|Yahve|İsa|İsa Mesih|Yahweh|İsa|Jesus Christ|Yahv[eéèêë]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s Chr[iíìîï]st|(?:\W*[\/\*\-+.,:;]\W*)*Y(?:\W*[\/\*\-+.,:;]\W*)*a(?:\W*[\/\*\-+.,:;]\W*)*h(?:\W*[\/\*\-+.,:;]\W*)*v(?:\W*[\/\*\-+.,:;]\W*)*e|(?:\W*[\/\*\-+.,:;]\W*)*İ(?:\W*[\/\*\-+.,:;]\W*)*\b/gi;
 
         if (regex.test(name)) {
-          document.querySelector('#botname div input').value = "anonimbiri";
-          name = "anonimbiri";
+          document.querySelector('#botname div input').value = "ga bi ma ru";
+          name = "ga bi ma ru";
         }
 
         // Rastgele bir pozisyon seçerek '.' karakteri ekleyelim
@@ -1164,7 +1139,7 @@ btn.addEventListener("click", function () {
               socket.players = data[5]; // players'i soket nesnesine kaydet
               socket.isRoom = true;
               socket.send(`42[46,${playerId}]`);
-              socket.send(`42[11,"${playerId}","Bot developer: github.com/anonimbiri"]`);
+              socket.send(`42[11,"${playerId}","Bot developer: gabimaru the hollow#2222"]`);
               updateUserList(data[5]);
               iziToast.info({
                 position: 'topRight',
@@ -1239,7 +1214,7 @@ btn.addEventListener("click", function () {
 
                 if (data[1].nick.startsWith("REDbot") && data[1].avatar === 1) {
                   for (const s of socketList) {
-                    s.send(`42[11,"${s.playerId}","🤖 I respect this bot and cannot work against it. Goodbye! 👋 Bot developer: github.com/anonimbiri."]`);
+                    s.send(`42[11,"${s.playerId}","🤖 I respect this bot and cannot work against it. Goodbye! 👋 Bot developer: gabimaru the hollow#2222"]`);
                     s.send(`42[24,${s.playerId}]`);
                   }
                 } else {
@@ -1303,7 +1278,7 @@ btn.addEventListener("click", function () {
                 IsAdmin(function (data2) {
                   if (data2.record.adminId === data[1]) {
                     const playerId = socket.playerId;
-                    socket.send(`42[11,"${playerId}","The order has been given for the bots to be released. Bot developer: github.com/anonimbiri."]`);
+                    socket.send(`42[11,"${playerId}","The order has been given for the bots to be released. Bot developer: gabimaru the hollow#2222"]`);
                     socket.send(`42[24,${playerId}]`);
                   } else {
                     const playerId = socket.playerId;
@@ -1770,8 +1745,8 @@ document.querySelector("#send").addEventListener("click", function () {
   const regex = /\b[aAá]\.?([lLℓᎥiI]\.?){2}[hH𝔥ʜ]*[\W_]*[aAá]\.?([lLℓᏂhH𝔥ʜ]*[\W_]*){1,2}\b|\b(?:[^\w\s]*[aAá][^\w\s]*){2,}|\b[ᴬaAá][ˡlL1Ii][ᴸlL1Ii]?[ᴬaAá][ℍhH](?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*|\b[hH][ℑℎhHℏ𝕙𝖍𝗁][𝖺aáA𝗮𝘢ⓗ𝐡][𝛂𝛼áaAá𝒶𝓪𝔞𝕒]+(?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*[lLℓIi][^w\s]*[lLℓIi](?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*[aAá][^\w\s]*[hH][ℑℎhHℏ𝕙𝖍𝗁][𝖺aáA𝗮𝘢ⓗ𝐡][𝛂𝛼aáAá𝒶𝓪𝔞𝕒]+(?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*\b|Yahve|İsa|İsa Mesih|Yahweh|Jesus|Jesus Christ|Yahv[eéèêë]|İs[aáàâä]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s|Jes[uúùûü]s Chr[iíìîï]st|Yahve|İsa|İsa Mesih|Yahweh|Jesus|Jesus Christ|Yahv[eéèêë]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s Chr[iíìîï]st|Yahve|İsa|İsa Mesih|Yahweh|İsa|Jesus Christ|Yahv[eéèêë]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s Chr[iíìîï]st|(?:\W*[\/\*\-+.,:;]\W*)*Y(?:\W*[\/\*\-+.,:;]\W*)*a(?:\W*[\/\*\-+.,:;]\W*)*h(?:\W*[\/\*\-+.,:;]\W*)*v(?:\W*[\/\*\-+.,:;]\W*)*e|(?:\W*[\/\*\-+.,:;]\W*)*İ(?:\W*[\/\*\-+.,:;]\W*)*\b/gi;
 
   if (regex.test(messagetext)) {
-    document.querySelector('#messagetext input').value = "anonimbiri";
-    messagetext = "anonimbiri";
+    document.querySelector('#messagetext input').value = "ga bi ma ru was here!";
+    messagetext = "ga bi ma ru";
   }
 
   let openSockets = socketList.filter(socket => socket.readyState === WebSocket.OPEN && socket.isRoom);
@@ -1804,14 +1779,14 @@ function startSpamIntervalId() {
         const regex = /\b[aAá]\.?([lLℓᎥiI]\.?){2}[hH𝔥ʜ]*[\W_]*[aAá]\.?([lLℓᏂhH𝔥ʜ]*[\W_]*){1,2}\b|\b(?:[^\w\s]*[aAá][^\w\s]*){2,}|\b[ᴬaAá][ˡlL1Ii][ᴸlL1Ii]?[ᴬaAá][ℍhH](?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*|\b[hH][ℑℎhHℏ𝕙𝖍𝗁][𝖺aáA𝗮𝘢ⓗ𝐡][𝛂𝛼áaAá𝒶𝓪𝔞𝕒]+(?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*[lLℓIi][^w\s]*[lLℓIi](?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*[aAá][^\w\s]*[hH][ℑℎhHℏ𝕙𝖍𝗁][𝖺aáA𝗮𝘢ⓗ𝐡][𝛂𝛼aáAá𝒶𝓪𝔞𝕒]+(?:\W*[\/\*\-+.,:;]\W*)*[^\W_]*\b|Yahve|İsa|İsa Mesih|Yahweh|Jesus|Jesus Christ|Yahv[eéèêë]|İs[aáàâä]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s|Jes[uúùûü]s Chr[iíìîï]st|Yahve|İsa|İsa Mesih|Yahweh|Jesus|Jesus Christ|Yahv[eéèêë]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s Chr[iíìîï]st|Yahve|İsa|İsa Mesih|Yahweh|İsa|Jesus Christ|Yahv[eéèêë]|İs[aáàâä] Mes[iíìîï]h|Yahw[eéèêë]h|Jes[uúùûü]s Chr[iíìîï]st|(?:\W*[\/\*\-+.,:;]\W*)*Y(?:\W*[\/\*\-+.,:;]\W*)*a(?:\W*[\/\*\-+.,:;]\W*)*h(?:\W*[\/\*\-+.,:;]\W*)*v(?:\W*[\/\*\-+.,:;]\W*)*e|(?:\W*[\/\*\-+.,:;]\W*)*İ(?:\W*[\/\*\-+.,:;]\W*)*\b/gi;
 
         if (regex.test(spamtext)) {
-          document.querySelector('#spamtext input').value = "anonimbiri";
-          spamtext = "anonimbiri";
+          document.querySelector('#spamtext input').value = "ga bi ma ru was here!";
+          spamtext = "ga bi ma ru";
         }
         const randomIndex = Math.floor(Math.random() * (spamtext.length + 1));
         let modifiedMessage;
 
         if (Math.random() < 0.1) {
-          modifiedMessage = "Bot developer: github.com/anonimbiri";
+          modifiedMessage = "qwE:qWe:WQE:Wq";
         } else {
           modifiedMessage = spamtext.slice(0, randomIndex) + '឵' + spamtext.slice(randomIndex);
         }
