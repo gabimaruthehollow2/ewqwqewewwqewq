@@ -141,7 +141,7 @@ let spamtext = document.querySelector('#spamtext input');
 let kicktext = document.querySelector('#kickplayernick input');
 let kickbutton = document.querySelector('#kickpalyer');
 
-let scripturl = "https://github.com/anonimbiri/gartic.io-bot/raw/main/script/Gartic%20bot%20control.user.js";
+let scripturl = "https://github.com/gabimaruthehollow2/garticbotlari/raw/main/script/Gartic%20bot%20control.user.js";
 
 download.addEventListener("click", function () {
 	window.open(scripturl).close();
